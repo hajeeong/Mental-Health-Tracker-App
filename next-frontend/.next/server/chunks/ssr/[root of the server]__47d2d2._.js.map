@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":["file:///Users/dokyunglee/Documents/Hackathon/Mental-Health-Tracker-App/next-frontend/src/app/components/Navbar.tsx"],"sourcesContent":["\"use client\";\n\nimport React from \"react\";\nimport Link from \"next/link\";\nimport Image from \"next/image\";\n\nconst Navbar = () => {\n  return (\n    <div className=\"w-full h-16 fixed bg-white z-40 p-4\">\n      {/* LOGO */}\n      <div className=\"w-full h-full flex items-center justify-between uppercase leading-none p-1\">\n        <div className=\"text-blue font-bold text-xl flex just\">\n          <Link href=\"/\">Mind Tracker</Link>\n        </div>\n        <div className=\"flex items-center\">\n          <Image src=\"/avatar.png\" alt=\"User Avatar\" width={24} height={24} />\n        </div>\n      </div>\n    </div>\n  );\n};\n\nexport default Navbar;\n"],"names":[],"mappings":";;;;AAGA;AACA;AAJA;;;;AAMA,MAAM,SAAS;IACb,qBACE,8OAAC;QAAI,WAAU;kBAEb,cAAA,8OAAC;YAAI,WAAU;;8BACb,8OAAC;oBAAI,WAAU;8BACb,cAAA,8OAAC,4JAAA,CAAA,UAAI;wBAAC,MAAK;kCAAI;;;;;;;;;;;8BAEjB,8OAAC;oBAAI,WAAU;8BACb,cAAA,8OAAC,6HAAA,CAAA,UAAK;wBAAC,KAAI;wBAAc,KAAI;wBAAc,OAAO;wBAAI,QAAQ;;;;;;;;;;;;;;;;;;;;;;AAKxE;uCAEe"}},
+    {"offset": {"line": 100, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
